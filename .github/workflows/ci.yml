@@ -19,7 +19,7 @@ jobs:
         node-version: 22
 
     - name: Build Docker image
-      run: docker build -t docker.io/JessamyH/sample-docker-react .
+      run: docker build -t docker.io/jessamyh/sample-docker-react .
 
     - name: Run tests
       run: echo "Put your testing command here if you have"
